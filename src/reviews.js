@@ -1,6 +1,6 @@
 import React from "react";
-import App from './App.css';
-import { ReactDOM } from "react";
+import './App.css';
+
 
 
 
@@ -8,7 +8,7 @@ function Reviews(props) {
   return(
     
         <div id='card'>
-          <img id='image' src={props.image}></img>
+          <img id='image' src={props.image} alt={''}></img>
           <p id='name'>{props.name}</p>
           <p id='designation'>{props.designation}</p>
           <p id='description'>{props.description}</p>

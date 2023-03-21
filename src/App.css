@@ -21,6 +21,7 @@ html,body,#root,#main {
     justify-content: center;
     align-items: center;
     background-color: #fafaee;
+    border-radius: 100px;
 }
 
 #card {
@@ -30,6 +31,7 @@ html,body,#root,#main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 img {
@@ -40,6 +42,7 @@ img {
     border-radius: 100px;
     border: 1px solid black;
     transform: scale();
+    object-fit: cover;
 }
 
 #name {
