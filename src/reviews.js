@@ -2,8 +2,6 @@ import React from "react";
 import './App.css';
 
 
-
-
 function Reviews(props) {
   return(
     
@@ -34,6 +32,8 @@ function Reviews(props) {
   function clickOnSurprise() {
     props.handleSurprise();
   }
+
+  
 
 }
 
